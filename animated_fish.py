@@ -40,6 +40,6 @@ elif chase_y_n == "no":
 else:
     print("huh? what did you say...?")
 
-print("that's it")
+print("that's it folks")
 
 
