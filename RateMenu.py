@@ -43,6 +43,8 @@ def font():
 #
 # user input
 option1 = 0
+
+
 def run_options1():
     # infinite loop to accept/process user menu choice
     global option1
@@ -69,10 +71,13 @@ def run_options1():
             option1 = 0
             run_options1()
 
+
 run_options1()
 
 
 option_A = 0
+
+
 def run_image_options():
     # infinite loop to accept/process user menu choice
     global option_A
@@ -103,6 +108,8 @@ if option1 == 1:
 
 
 option_S = 0
+
+
 def run_size_options():
     # infinite loop to accept/process user menu choice
     global option_S
@@ -133,6 +140,8 @@ if option1 == 2:
 
 
 option_F = 0
+
+
 def run_font_options():
     # infinite loop to accept/process user menu choice
     global option_F
