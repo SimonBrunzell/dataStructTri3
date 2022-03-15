@@ -28,7 +28,6 @@ for position in range(start, distance, step):
     print_fishes(position)
     time.sleep(.1)
 
-
 chase_y_n = str(input('Do you wanna see a chase: '))
 
 if chase_y_n == "yes" or 'y':
