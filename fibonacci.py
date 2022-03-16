@@ -1,8 +1,10 @@
 
-num = input("How many terms of the Fibonacci sequence do you want?: ")
+
+amount = input("How many terms of the Fibonacci sequence do you want?: ")
 
 
 def fibonacci(num):
+    num = str(num)
     print("You said you wanted " + num + " terms? Here you go: ")
     print()
     num = int(num)
@@ -16,8 +18,34 @@ def fibonacci(num):
         count += 1
 
 
-print()
-fibonacci(str(num))
+def ask():
+    amount = input("Now how many do you want?: ")
+    return amount
+
+
+def tester(n):
+    n = int(n)
+    if n < 0:
+        print("Sorry, cannot print a negative amount of numbers in the sequence")
+        ask()
+        tester(amount)
+    elif n == 1:
+        print("come on that's boring ")
+        ask()
+        tester(amount)
+    elif n == 2:
+        print("that's a bit better but c'mon ")
+        ask()
+        tester(amount)
+    else:
+        fibonacci(n)
+
+
+tester(amount)
+
+
+# print()
+# fibonacci(str(amount))
 
 
 
