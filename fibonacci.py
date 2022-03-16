@@ -19,24 +19,22 @@ def fibonacci(num):
 
 
 def ask():
-    amount = input("Now how many do you want?: ")
-    return amount
+    new_amount = input("Now how many do you want?: ")
+    return new_amount
 
 
 def tester(n):
     n = int(n)
     if n < 0:
         print("Sorry, cannot print a negative amount of numbers in the sequence")
-        ask()
-        tester(amount)
+        new_amount = input("so what do you want instead: ")
+        tester(new_amount)
     elif n == 1:
-        print("come on that's boring ")
-        ask()
-        tester(amount)
+        new_amount = input("come on that's boring: ")
+        tester(new_amount)
     elif n == 2:
-        print("that's a bit better but c'mon ")
-        ask()
-        tester(amount)
+        new_amount = input("that's a bit better but c'mon: ")
+        tester(new_amount)
     else:
         fibonacci(n)
 
