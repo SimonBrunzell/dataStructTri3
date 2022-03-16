@@ -74,14 +74,14 @@ print()
 list_of_PII[1]["Classes"][1] = B
 
 
-def recursive_loop(c):
+def class_loop_recursive(c):
     if c < len(list_of_PII[1]["Classes"]):
         print(list_of_PII[1]["Classes"][c])
-        recursive_loop(c + 1)
+        class_loop_recursive(c + 1)
     return
 
 
-recursive_loop(0)
+class_loop_recursive(0)
 
 print()
 print("Ooh there we go... this looks right now")
