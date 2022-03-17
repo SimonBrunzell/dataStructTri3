@@ -29,15 +29,6 @@ full_name = first + " " + last
 print(full_name + " is this your class list?")
 
 
-# prints list backwards
-# def class_loop():
-#     n = len(list_of_PII[1]["Classes"]) - 1
-#     while n > -1:
-#         print(list_of_PII[1]["Classes"][n])
-#         n = n - 1
-# class_loop()
-
-
 # prints all of Sebastian's original classes
 def class_loop_while():
     n = 0
