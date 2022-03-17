@@ -29,11 +29,14 @@ def tester(n):
         print("Sorry, cannot print a negative amount of numbers in the sequence")
         new_amount = input("so what do you want instead: ")
         tester(new_amount)
+    elif n == 0:
+        new_amount = input("you want me to print nothing... c'mon: ")
+        tester(new_amount)
     elif n == 1:
         new_amount = input("come on that's boring: ")
         tester(new_amount)
     elif n == 2:
-        new_amount = input("that's a bit better but c'mon: ")
+        new_amount = input("that's lame c'mon: ")
         tester(new_amount)
     else:
         fibonacci(n)
