@@ -24,6 +24,15 @@ def ask():
 
 
 def tester(n):
+
+    try:
+        n = int(n)
+    except ValueError:
+        print("This not an integer please replace " + n)
+        new_amount = input("so what do you want instead: ")
+        tester(new_amount)
+        return
+
     n = int(n)
     if n < 0:
         print("Sorry, cannot print a negative amount of numbers in the sequence")
@@ -49,8 +58,6 @@ tester(amount)
 # fibonacci(str(amount))
 
 
-
-
 # def tester():
 #     num = int(input("Enter a number for factorial: "))
 #     # check if the number is negative
@@ -61,4 +68,3 @@ tester(amount)
 #
 #
 # tester()
-
