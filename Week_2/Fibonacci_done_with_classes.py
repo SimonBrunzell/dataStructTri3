@@ -31,54 +31,7 @@ amount = Fibonacci(2, 0, 1, 0)
 # i might have to move this out here not sure tho
 amount.num = input("How many terms of the Fibonacci sequence do you want?: ")
 
+
 ask_amount(amount)
 
 fibo_math(amount)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# n = input("how many fibo digits do you want: ")
-#
-#
-#     class Fibonacci:
-#         # creates object self I think
-#         def __init__(self):
-#             self.fiboSeq = [0, 1]
-#
-#     # call allows for a class to behave like a regular Python function
-#
-#     def __call__(self, n):
-#         if n < len(self.fiboSeq):
-#             return self.fiboSeq[n]
-#         else:
-#             # Compute the requested Fibonacci number
-#             fib_number = self(n - 1) + self(n - 2)
-#             self.fiboSeq.append(fib_number)
-#         return self.fiboSeq[n]
-#
-#
-# fibo_of = fibonacci()
-# # object instantiation and run __init__ method
-# print(fibo_of(5))
-# # object running __call__ method
