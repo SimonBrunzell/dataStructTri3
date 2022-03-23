@@ -6,8 +6,9 @@ Data Structure - Trimester 3
 - [Code](https://github.com/SimonBrunzell/dataStructTri3/wiki/Data-Structure-Projects)
 
 # Week 1
-- [Notes](https://github.com/SimonBrunzell/dataStructTri3/wiki/Test-Prep-Study#5.3-Notes)
+- [Notes](notes.md)
 - [Code](https://github.com/SimonBrunzell/dataStructTri3/wiki/Data-Structure-Projects#week-1)
+- [Review Ticket](https://github.com/SimonBrunzell/dataStructTri3/issues/2)
 
 
 
