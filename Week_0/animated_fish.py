@@ -15,30 +15,34 @@ def print_chase(position):
     print(sp + "><(('> " + sp + " ><((('> ")
 
 def yes_to_chase():
+    start = 0
+    distance =  60
+    step = 2
     for position in range(start, distance, step):
         print_chase(position)
         time.sleep(.1)
 
+if __name__ == '__main__':
 
-start = 0
-distance = 60
-step = 2
+    start = 0
+    distance = 60
+    step = 2
 
-for position in range(start, distance, step):
-    print_fishes(position)
-    time.sleep(.1)
+    for position in range(start, distance, step):
+        print_fishes(position)
+        time.sleep(.1)
 
-chase_y_n = str(input('Do you wanna see a chase: '))
+    chase_y_n = str(input('Do you wanna see a chase: '))
 
-if chase_y_n == "yes" or 'y':
-    yes_to_chase()
+    if chase_y_n == "yes" or 'y':
+        yes_to_chase()
 
-elif chase_y_n == "no":
-    print('dang alright...')
+    elif chase_y_n == "no":
+        print('dang alright...')
 
-else:
-    print("huh? what did you say...?")
+    else:
+        print("huh? what did you say...?")
 
-print("that's all folks")
+    print("that's all folks")
 
 
