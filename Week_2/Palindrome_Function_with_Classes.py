@@ -4,7 +4,7 @@
 
 
 class Palindrome:
-    def __init__(self, word):
+    def __init__(selfra, word):
         self.word = word
 
     def pal_check(self):
@@ -31,8 +31,8 @@ class Palindrome:
 
 
 response = (input("What word do you want to check: "))
-n = Palindrome(response)
-Palindrome.word = n
+r = Palindrome(response)
+Palindrome.word = r
 
 print("{}" .format(Palindrome.pal_check(Palindrome.word)))
 

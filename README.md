@@ -1,5 +1,13 @@
 Data Structure - Trimester 3
 
+
+### NavBar
+<nav>
+<a href= "https://github.com/SimonBrunzell/dataStructTri3/blob/main/week_1.md"> 
+Week 0</a>
+
+</nav>
+
 # Week 0
 - [Notes](https://github.com/SimonBrunzell/dataStructTri3/wiki/Test-Prep-Study)
 - [Create Task](https://github.com/SimonBrunzell/dataStructTri3/wiki/Create-Task)

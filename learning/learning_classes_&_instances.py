@@ -72,9 +72,3 @@ emp_2 = Employee.from_string(emp_str_2)
 # checking to make sure that the employee was created properly
 print(emp_2.__dict__)
 print(emp_2.fullname())
-
-
-
-
-
-
