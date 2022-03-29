@@ -1,5 +1,6 @@
 # Data Structure - Trimester 3
 > ### Simon's Github Page
+<a href = "SimonBrunzell/Assignment.html">HTML</a>
 
 # Week 0
 - [Notes](https://github.com/SimonBrunzell/dataStructTri3/wiki/Test-Prep-Study)
