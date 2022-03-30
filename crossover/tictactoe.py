@@ -20,7 +20,8 @@ def checkwin(board):
         return [True,board[5]]
     if board[3] == board[6] == board[9] and (board[3] != " "):
         return [True,board[3]]
-
+    if " " not in board.values():
+        return [True,"tie"]
     return [False," "]
 def playerMove(board):
     selection = int(input("Where do you want to move? "))
@@ -47,6 +48,8 @@ def game():
     }
     move = 1
     while not checkwin(board)[0]:
+        if checkwin(board)[1] == "tie":
+            break
         if move==1:
 
             printBoard(board)
@@ -58,6 +61,8 @@ def game():
             move = 1
     if checkwin(board)[1] == "x":
         print("Congratulations! You won!")
+    elif checkwin(board)[1] == "tie":
+        print("It was a tie! ")
     else:
         print("The computer won. ")
 if __name__ == '__main__':

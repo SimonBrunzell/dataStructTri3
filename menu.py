@@ -2,6 +2,7 @@ from Week_0.ani import ship
 from Week_0.animated_fish import yes_to_chase
 import os
 import time
+from crossover.tictactoe import game
 mainmenu = {
     1: {
         "Display": "Ship",
@@ -14,6 +15,11 @@ mainmenu = {
         "type":"func"
     },
     3: {
+        "Display":"tictactoe",
+        "exec":game,
+        "type":"func"
+    },
+    4: {
         "Display":"quit",
         "exec":quit,
         "type":"func"
