@@ -1,3 +1,5 @@
+{% include nav.html %}
+
 # Unit 5 Notes
 
 # 5.1 Notes
