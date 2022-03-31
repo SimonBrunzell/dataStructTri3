@@ -1,4 +1,7 @@
+
+
 # Data Structure - Trimester 3
+
 > ### Simon's Github Page
 <a href = "SimonBrunzell/Assignment.html">HTML</a>
 
