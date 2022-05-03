@@ -11,9 +11,6 @@
 - [Code](https://github.com/SimonBrunzell/dataStructTri3/wiki/Data-Structure-Projects)
 # Organized Files -->
 
-## Quizes
-
-
 ## Review Tickets
 - [Week 0](https://github.com/SimonBrunzell/dataStructTri3/issues/1)
 - [Week 1](https://github.com/SimonBrunzell/dataStructTri3/issues/2)
