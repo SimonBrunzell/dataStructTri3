@@ -17,6 +17,8 @@
 - [Week 2](https://github.com/SimonBrunzell/dataStructTri3/issues/4)
 - [Week 3](https://github.com/SimonBrunzell/dataStructTri3/issues/5)
 - [Week 4](https://github.com/SimonBrunzell/dataStructTri3/issues/6)
+- [Week 5]()
+- [Week 6](https://github.com/SimonBrunzell/dataStructTri3/issues/8)
 
 ## Features
 - [Animation](https://github.com/SimonBrunzell/dataStructTri3/blob/main/Week_0/animated_fish.py)
