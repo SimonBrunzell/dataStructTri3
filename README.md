@@ -3,13 +3,23 @@
 # Data Structure - Trimester 3
 
 > ### Simon's Github Page
-<a href = "SimonBrunzell/Assignment.html">HTML</a>
+<!-- <a href = "SimonBrunzell/Assignment.html">HTML</a> -->
 
-# Week 0
+<!-- # Week 0
 - [Notes](https://github.com/SimonBrunzell/dataStructTri3/wiki/Test-Prep-Study)
 - [Create Task](https://github.com/SimonBrunzell/dataStructTri3/wiki/Create-Task)
 - [Code](https://github.com/SimonBrunzell/dataStructTri3/wiki/Data-Structure-Projects)
-# Organized Files
+# Organized Files -->
+
+## Quizes
+
+
+## Review Tickets
+- [Week 0](https://github.com/SimonBrunzell/dataStructTri3/issues/1)
+- [Week 1](https://github.com/SimonBrunzell/dataStructTri3/issues/2)
+- [Week 2](https://github.com/SimonBrunzell/dataStructTri3/issues/4)
+- [Week 3](https://github.com/SimonBrunzell/dataStructTri3/issues/5)
+- [Week 4](https://github.com/SimonBrunzell/dataStructTri3/issues/6)
 
 ## Features
 - [Animation](https://github.com/SimonBrunzell/dataStructTri3/blob/main/Week_0/animated_fish.py)
