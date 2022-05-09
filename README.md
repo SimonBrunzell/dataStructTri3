@@ -9,7 +9,7 @@
 - [Notes](https://github.com/SimonBrunzell/dataStructTri3/wiki/Test-Prep-Study)
 - [Create Task](https://github.com/SimonBrunzell/dataStructTri3/wiki/Create-Task)
 - [Code](https://github.com/SimonBrunzell/dataStructTri3/wiki/Data-Structure-Projects)
-# Organized Files -->
+# Organized File -->
 
 ## Review Tickets
 - [Week 0](https://github.com/SimonBrunzell/dataStructTri3/issues/1)
